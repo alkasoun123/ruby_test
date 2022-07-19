@@ -1,8 +1,8 @@
-require ‘time’
+class ParseTime
 
-input = "{\"time\":\"2022-06-17T05:52:39.787Z\"}"
+	def convert_timezone(input)
+	   input_json = JSON.parse(input)
+	   Time.parse(input_json['time']).localtime
+	end
 
-arr = input.slice! "\"time\":"
-
-
-puts Time.parse(input)
+end
