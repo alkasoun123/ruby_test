@@ -1,30 +1,10 @@
 # ruby_test_answers
 
 
-1> str = "hello"
+1> https://github.com/alkasoun123/ruby_test/blob/main/solution1.rb
 
-   str = str.reverse
+2> https://github.com/alkasoun123/ruby_test/blob/main/soultion2.rb
 
-   puts str
-
-3>def fibonacci( n )
-    return  n  if n <= 1 
-    fibonacci( n - 1 ) + fibonacci( n - 2 )
-end 
-puts fibonacci( 7 )
-  
-
-
-
-2>require ‘time’
-
-input = "{\"time\":\"2022-06-17T05:52:39.787Z\"}"
-
-arr = input.slice! "\"time\":"
-
-
-puts Time.parse(input)
-
-
+3> https://github.com/alkasoun123/ruby_test/blob/main/solution3.rb
 
 
